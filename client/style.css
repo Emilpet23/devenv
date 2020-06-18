@@ -1,0 +1,14 @@
+table, th, td {
+    padding: 7px;
+    border-bottom: 1px solid #333;
+    border-radius: 3px;
+    border-collapse: collapse;
+  }
+
+#table {
+  margin-top: 40px;
+}
+
+#kategori {
+    margin-top: 40px;
+}

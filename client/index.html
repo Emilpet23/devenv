@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>DevEnv Eksamen</title>
+  </head>
+  <body>
+    <main>
+      <input type="text" id="navn-input" placeholder="Navn" />
+      <input type="text" id="desc-input" placeholder="Beskrivelse" />
+      <input type="text" id="enhed-input" placeholder="Enhed (kg)" />
+      <input type="text" id="amount-input" placeholder="Mængde i pakningen" />
+      <input type="text" id="pris-input" placeholder="Pris" />
+      <input type="text" id="kategori-input" placeholder="Kategori" />
+      <button id="add-product-btn">Post</button>
+
+      <table id="table">
+        <thead>
+          <th>id</th>
+          <th>Navn</th>
+          <th>Beskrivelse</th>
+          <th>Kg</th>
+          <th>Mængde</th>
+          <th>Pris</th>
+          <th>Kategori</th>
+          <th>Delete</th>
+          <th>Edit</th>
+        </thead>
+        <tbody></tbody>
+      </table>
+
+      <section hidden id="update-row">
+        <input type="text" id="update-product-input" placeholder="Navn"/>
+        <button id="update-row-btn">Update</button>
+      </section>
+
+      <table id="kategori">
+        <thead>
+            <th>ID</th>
+            <th>Navn</th>
+            <th>Beskrivelse</th>
+        </thead>
+    </table>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
